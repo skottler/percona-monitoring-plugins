@@ -57,7 +57,7 @@ main() {
    fi
 
    # Set the exit status in case there are any problems.
-   NOTE="UNK could not determine the datadir location."
+   NOTE="CRIT could not determine the datadir location."
 
    # Set up files to hold one or more data directory locations.
    local TEMP=$(mktemp -t "${0##*/}.XXXXXX") || exit $?

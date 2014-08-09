@@ -106,7 +106,7 @@ main() {
          NOTE="OK $NOTE | $PERFDATA"
       fi
    else
-      NOTE="UNK could not determine replication delay"
+      NOTE="CRIT could not determine replication delay"
    fi
    echo $NOTE
 }

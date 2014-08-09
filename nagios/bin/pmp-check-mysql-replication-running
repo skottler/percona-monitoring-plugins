@@ -95,7 +95,7 @@ main() {
          NOTE="OK This server is not configured as a replica."
       fi
    else
-      NOTE="UNK could not determine replication status"
+      NOTE="CRIT could not determine replication status"
    fi
 
    echo $NOTE
